@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:id="@+id/questionsTitleBar"
+    android:background="@drawable/questiontitlebar">
+
+    <Button
+        android:id="@+id/btnSpeak"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/speak"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/tvQuestionsTitleBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="@string/questions" />
+
+    <Button
+        android:id="@+id/btnMute"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/mute"
+        android:layout_marginLeft="20dp"/>
+</LinearLayout>

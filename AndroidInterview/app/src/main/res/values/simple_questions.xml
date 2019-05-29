@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="simple_question">
+        <item>What is Android?</item>
+        <item>What is Google Android SDK?</item>
+        <item>What is Android Arhitecture?</item>
+        <item>Describe Android Framework.</item>
+        <item>What is AAPT?</item>
+        <item>What is the importance of having an emulator within the Android environment?</item>
+        <item>What is the use of an activityCreator?</item>
+        <item>Describe Activities.</item>
+        <item>What are Intents?</item>
+        <item>Differentiate Activities from Services.</item>
+    </string-array>
+</resources>

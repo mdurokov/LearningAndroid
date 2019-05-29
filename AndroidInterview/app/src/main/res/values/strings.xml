@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidInterview</string>
+    <string name="btn_simple_q">Simple Questions</string>
+    <string name="btn_tough_q">Tough Questions</string>
+    <string name="btn_see_other">See Other Apps</string>
+    <string name="btn_rate_app">Rate App</string>
+    <string name="press_a_for_answer">Press A for Answer!</string>
+    <string name="question">Question</string>
+    <string name="xx">XX/</string>
+    <string name="yy">YY</string>
+    <string name="crack_interview">Android Interview</string>
+    <string name="questions">Category Questions</string>
+</resources>

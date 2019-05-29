@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tough_answer">
+        <item>Android is a mobile operating system developed by Google. It is based on a modified version of the Linux kernel and other open source software, and is designed primarily for touchscreen mobile devices such as smartphones and tablets.</item>
+        <item>The Android SDK (software development kit) is a set of development tools used to develop applications for Android platform. The Android SDK includes the following: Required libraries Debugger An emulator Relevant documentation for the Android application program interfaces (APIs) Sample source code Tutorials for the Android OS</item>
+        <item>Android architecture is categorized into five parts:
+linux kernel
+native libraries (middleware),
+Android Runtime
+Application Framework
+Applications</item>
+        <item>Android architecture is categorized into five parts:
+
+linux kernel
+native libraries (middleware),
+Android Runtime
+Application Framework
+Applications</item>
+        <item>In short, you can say that Android Framework is the stack of code that makes up the OS which includes native libraries which may or may not be accessible to the developer. It includes tools to design UI, work with databases, handle user interaction, etc.</item>
+        <item>AAPT allows you to view, create, and update ZIP-compatible archives (ZIP, JAR, and APK). It can also compile resources into binary assets. It is the base builder for Android applications.</item>
+        <item>Emulators are a safe place for testing your application code to check how it works on an acual device.
+The emulator lets developers to use it as an interface that acts as if it were an actual mobile device.</item>
+        <item>In technical terms if I say, its a batch file and shell script that was being used to create new android projects .I think now its been long , this has been replaced by Create new Project.</item>
+        <item>The Activity class is a crucial component of an Android app, and the way activities are launched and put together is a fundamental part of the platforms application model. Unlike programming paradigms in which apps are launched with a main() method, the Android system initiates code in an Activity instance by invoking specific callback methods that correspond to specific stages of its lifecycle.</item>
+        <item>An intent is an abstract description of an operation to be performed. An Intent provides a facility for performing late runtime binding between the code in different applications. Its most significant use is in the launching of activities, where it can be thought of as the glue between activities. It is basically a passive data structure holding an abstract description of an action to be performed.</item>
+        <item>Activity is a GUI and service is non-gui thread which can run in the background.</item>
+    </string-array>
+</resources>

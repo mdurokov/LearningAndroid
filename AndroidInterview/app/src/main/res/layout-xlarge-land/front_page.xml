@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frontPageLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <Button
+        android:id="@+id/btnSimpleQ"
+        android:layout_width="500dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/btn_simple_q"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btnToughQ"
+        android:layout_width="500dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/btnSimpleQ"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/btn_tough_q"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btnSeeOther"
+        android:layout_width="500dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/btnToughQ"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/button_custom"
+        android:text="@string/btn_see_other"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btnRateApp"
+        android:layout_width="500dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/btnSeeOther"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button_custom"
+        android:freezesText="false"
+        android:text="@string/btn_rate_app"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+</RelativeLayout>
