@@ -1,6 +1,4 @@
-package com.mdurokov.notes;
-
-import android.util.Log;
+package com.mdurokov.memorableplaces;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

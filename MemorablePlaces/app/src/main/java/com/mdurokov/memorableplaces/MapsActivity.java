@@ -3,6 +3,7 @@ package com.mdurokov.memorableplaces;
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
@@ -144,6 +145,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     MainActivity.locations.add(latLng);
 
                     MainActivity.adapter.notifyDataSetChanged();
+
+                    SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences("com.mdurokov.memorableplaces", Context.MODE_PRIVATE);
+                    sharedPreferences.edit().putString("places", ObjectSerializer.serialize(MainActivity.places)).apply();
+                    sharedPreferences.edit().putString("locations", ObjectSerializer.serialize(MainActivity.locations)).apply();
 
                     Toast.makeText(MapsActivity.this, "Location saved!", Toast.LENGTH_SHORT).show();
 
