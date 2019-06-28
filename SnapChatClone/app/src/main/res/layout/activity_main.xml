@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp" app:layout_constraintEnd_toEndOf="parent" android:id="@+id/editTextEmail"
+            android:layout_marginEnd="8dp" android:layout_marginStart="8dp"
+            android:hint="Email" android:gravity="center" android:inputType="textEmailAddress"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/editTextPassword" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/editTextEmail" android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp" android:hint="Password" android:gravity="center"/>
+    <Button
+            android:text="Go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/btnGo" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPassword" android:onClick="goClicked"/>
+</android.support.constraint.ConstraintLayout>
